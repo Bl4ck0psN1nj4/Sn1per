@@ -1,4 +1,39 @@
 ## CHANGELOG:
+* v2.3a - Fixed minor issue with MSSQL NMap script command (CC. @helo86)
+* v2.3 - Fixed minor issues with missing $TARGET definitions for NMap (CC. @helo86)
+* v2.2f - Added various optimizations and minor code fixes
+* v2.2e - Changed NMap scan options (removed -P0 flag)
+* v2.2d - Added MongoDB checks
+* v2.2d - Improved NMap scanning options
+* v2.2c - Added CouchDB checks
+* v2.2c - Updated Sub-domain takeover list
+* v2.2b - Added fullportonly mode to do exclusive full port scans
+* v2.2b - Fixed minor issue with Metasploit Pro not starting
+* v2.2b - Fixed minor issue with sniper loot command
+* v2.2a - Fixed minor issue with loot function
+* v2.2 - Added auto Metasploit Pro & Zenmap GUI integration
+* v2.2 - Added Sn1per workspaces to loot directory
+* v2.1d - Added crt.sh sub-domain check
+* v2.1d - Removed blank screenshots from loot directory
+* v2.1c - Fixed issue with install.sh install directories
+* v2.1b - Added automatic Metasploit NMap xml imports for loot directory
+* v2.1b - Removed Zenmap
+* v2.1a - Separated Arachni reports for port 80/443/tcp
+* v2.1a - Fixed NMap full port scan options
+* v2.1 - Added Arachni with auto HTML web reporting (web mode only)
+* v2.1 - Added full NMap detailed port scans
+* v2.1 - Added port 4443/tcp checks
+* v2.1 - Added META tag scans for web apps
+* v2.1 - Removed Uniscan from web mode
+* v2.1 - Removed SQLMap from web mode
+* v2.0b - Added help option --help
+* v2.0a - Fixed issue with ssh-audit
+* v2.0a - Fixed issue with 'discover' mode
+* v2.0 - Updated sub-domain takeover list
+* v2.0 - Improved scan performance for stealth, airstrike and discover modes
+* v2.0 - Removed jexboss due to clear screen issue with output
+* v2.0 - Auto loot directory sorting for all tools
+* v2.0 - Updated install.sh package list
 * v1.9c - Enabled BruteX automated brute force attacks
 * v1.9b - Fixed MSSQL port 1433/tcp port scan check (@hacktrack)
 * v1.9a - Removed testssl script from stealth mode scans
@@ -101,4 +136,4 @@
 * v1.4 - Removed debug output from goohak from displaying on console
 
 ## FUTURE:
-* Add scan config options to enabled/disable certain scan tasks (ie. brute force, osint, web scans, etc.)
+* Add auto logging and reporting to all scans
